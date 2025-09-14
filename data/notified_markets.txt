@@ -1,0 +1,6 @@
+# Market History File
+# File tracks market slugs that have already been processed/notified
+# to prevent duplicate alerts. File is managed by bot so no need to edit manually.
+
+nfl-kc-nyg-2025-09-21
+nfl-phi-kc-2025-09-14

@@ -1,0 +1,21 @@
+signal:
+  daemon_url: "http://localhost:8080"
+  number: "+14254999005"  # signal phone number
+  group_id: "DYA8dKj7GKI3/30527xHphI5rLoBbw+LTCZbx/AICj8="  # signal group id to send messages to
+
+# keywords to monitor for in market titles case insensitive
+keywords:
+  - patrick
+  - mahomes
+  - goat
+  - " greatest of all time "
+  - chiefs
+  - superbowl
+  - dynasty
+
+# path to store history of notified markets
+history_file: "./data/notified_markets.txt"
+
+# how often to check for new markets in seconds
+check_interval: 3600
+
